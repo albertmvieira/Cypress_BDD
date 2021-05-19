@@ -1,0 +1,20 @@
+{
+  "chromeWebSecurity": true,
+  "modifyObstructiveCode": false,
+  "experimentalSourceRewriting": true,
+  "defaultCommandTimeout": 8000,
+  "pageLoadTimeout": 15000,
+  "reporter": "mochawesome",
+  "env": {
+    "url": "https://rahulshettyacademy.com"
+  },
+  
+  "testFiles": "**/*.feature",
+  
+  "retries": {
+    "runMode": 1,
+    "openMode": 0
+  },
+
+  "projectId": "m3i5ns"
+}
